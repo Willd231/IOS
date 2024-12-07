@@ -1,0 +1,76 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:IOS}/Card",
+            "name": "Debug IOS (Card)",
+            "program": "${workspaceFolder:IOS}/Card/.build/debug/IOS",
+            "preLaunchTask": "swift: Build Debug IOS (Card)"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:IOS}/Card",
+            "name": "Release IOS (Card)",
+            "program": "${workspaceFolder:IOS}/Card/.build/release/IOS",
+            "preLaunchTask": "swift: Build Release IOS (Card)"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:IOS}/Card",
+            "name": "Debug Card (Card)",
+            "program": "${workspaceFolder:IOS}/Card/.build/debug/Card",
+            "preLaunchTask": "swift: Build Debug Card (Card)"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:IOS}/Card",
+            "name": "Release Card (Card)",
+            "program": "${workspaceFolder:IOS}/Card/.build/release/Card",
+            "preLaunchTask": "swift: Build Release Card (Card)"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:IOS}/Card-2",
+            "name": "Debug IOS (Card-2)",
+            "program": "${workspaceFolder:IOS}/Card-2/.build/debug/IOS",
+            "preLaunchTask": "swift: Build Debug IOS (Card-2)"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:IOS}/Card-2",
+            "name": "Release IOS (Card-2)",
+            "program": "${workspaceFolder:IOS}/Card-2/.build/release/IOS",
+            "preLaunchTask": "swift: Build Release IOS (Card-2)"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:IOS}/Card-2",
+            "name": "Debug Card-2 (Card-2)",
+            "program": "${workspaceFolder:IOS}/Card-2/.build/debug/Card-2",
+            "preLaunchTask": "swift: Build Debug Card-2 (Card-2)"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:IOS}/Card-2",
+            "name": "Release Card-2 (Card-2)",
+            "program": "${workspaceFolder:IOS}/Card-2/.build/release/Card-2",
+            "preLaunchTask": "swift: Build Release Card-2 (Card-2)"
+        }
+    ]
+}
